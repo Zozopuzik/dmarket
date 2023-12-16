@@ -1,0 +1,102 @@
+.trade-now-wrapper{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    align-items: center;
+    color: #fff;
+    padding-top: 3vw;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.trade-now-subheading{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.trade-now-heading{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 900;
+}
+.trade-now-img{
+    width: 35vw;
+    cursor: pointer;
+}
+.trade-now-row{
+    width: 32vw;
+    display: flex;
+    margin-top: 2vw;
+}
+.trade-now-nav{
+    width: 25%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.trade-now-btn{
+    width: 13vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    background: linear-gradient(253deg, #75cbbe 0%, #63ca7c 100%);
+    text-align: center;
+    margin-top: 3vw;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.trade-now-row2{
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.trade-now-stats{
+    width: 33%;
+    text-align: center;
+    margin-top: 1.5vw;
+    cursor: pointer;
+
+}
+.trade-now-stats-heading{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 900;
+}
+.small-circle{
+    width: 10px;
+    height: 10px;
+    background-color: #ff6464;
+    border-radius: 50%;
+}
+.trade-now-stats-subheading{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.trade-now-live-feed{
+    height: 35px;
+    display: flex;
+    background-color: #1d1f20;
+    width: 78%;
+    padding-left: 1%;
+    margin-left: 10%;
+    align-items: center;
+    cursor: pointer;
+}
+.trade-now-live-feed-text{
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 4px;
+}
+.trade-now-live-feed-arrow{
+    position: relative;
+    width: 10px;
+    margin-left: 70px;
+}
+.trade-now-img2{
+    margin-top: 2vw;
+}

@@ -1,0 +1,46 @@
+.quote-wrapper{
+    display: flex;
+    width: 100vw;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #151515;
+}
+.qoute-content-wrapper{
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+}
+.quote-article-wrapper{
+    padding-top: 6vw;
+    width: 30vw;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.quote-text{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 800;
+}
+.quote-artilce{
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+    margin-top: 1vw;
+}
+.quote-img{
+    width: 25vw;
+    padding-top: 4vw;
+}
+.quote-author{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-top: 2vw;
+}
+.quote-gree-text{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-top: 1vw;
+    color: #8dd294;
+}

@@ -1,0 +1,23 @@
+.trading-api-app-content-wrapper{
+    width: 80vw;
+    background-color: #151515;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.trading-api-btn{
+    width: 16vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    background: linear-gradient(253deg, #75cbbe 0%, #63ca7c 100%);
+    text-align: center;
+    margin-top: 3vw;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}

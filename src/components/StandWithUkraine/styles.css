@@ -1,0 +1,79 @@
+.stand-with-ukraine-container {
+  width: 100vw;
+  height: 35vw;
+  background-image: url("https://cdn-mp.dmarket.com/prod/v1-0-6/assets/img/home/home-support-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-clip: content-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.stand-with-ukraine-heading{
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.heading{
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 800;
+}
+.subheading{
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 800;
+    margin-top: 1.5vh;
+}
+
+.stand-with-ukraine-total-sum{
+    text-transform: uppercase;
+    color: #ffe601;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 7vh;
+
+}
+.stand-with-ukraine-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stand-with-ukraine-number{
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 800;
+}
+.stand-with-ukraine-article{
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 1vh;
+    font-weight: 500;
+}
+.stand-with-ukraine-link:visited{
+    color: #ffe601;
+}
+
+.stand-with-ukraine-btn{
+    width: 17vw;
+    background-color: #4daef8;
+    margin-bottom: 5vh;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.stand-with-ukraine-btn:hover{
+    background-color: #409adf;
+}
