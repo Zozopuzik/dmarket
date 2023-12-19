@@ -1,6 +1,7 @@
 import React from 'react'
 import tradeNowImg from '../../assets/images/trade-now-img.jpg'
 import './styles.css'
+import handleRedirect from '../../helpers/redirect.js'; 
 import { IoIosArrowUp } from "react-icons/io";
 export default function TradeNow() {
   return (
@@ -14,7 +15,7 @@ export default function TradeNow() {
             <div className="trade-now-nav">RUST</div>
             <div className="trade-now-nav">DOTA2</div>
         </div>
-        <div className="trade-now-btn">TRADE NOW</div>
+        <div className="trade-now-btn" onClick={handleRedirect}>TRADE NOW</div>
         <div className="trade-now-row2">
             <div className="trade-now-stats">
             <div className="trade-now-stats-heading">11 000 000+</div>
@@ -25,7 +26,7 @@ export default function TradeNow() {
             <div className="trade-now-stats-subheading">Closed Deals</div>
             </div>
             <div className="trade-now-stats">
-            <div className="trade-now-live-feed">
+            <div className="trade-now-live-feed" onClick={handleRedirect}>
                 <div className="small-circle"></div>
                 <div className="trade-now-live-feed-text">Live Feed</div> 
                 <div className="trade-now-live-feed-arrow"><IoIosArrowUp /></div>

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "../Image/Image";
 import Article from "../Article/Article";
+import handleRedirect from "../../helpers/redirect.js";
 import "./styles.css";
 export default function AboutUs() {
   const heading = 'ABOUT US'

@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles.css'
+import handleRedirect from '../../helpers/redirect'
 export default function TradingApi() {
   return (
     <div className='mobile-app-wrapper'>
@@ -10,7 +11,7 @@ export default function TradingApi() {
             <div className="mobile-app-article-wrapper">
             <div className="mobile-app-heading">TRADING API</div>
             <div className="mobile-app-article">DMarket Trading API enables all users to streamline their skins trading through a comprehensive range of API methods. It can help you manage your DMarket inventory and trade in bulk using pre-set algorithms, without routine manual efforts.</div>
-            <div className="trading-api-btn">discover benefits</div>
+            <div className="trading-api-btn" onClick={handleRedirect}>discover benefits</div>
             </div>
         </div>
     </div>
